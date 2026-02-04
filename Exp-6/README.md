@@ -21,6 +21,3 @@ By completing this experiment you will be able to:
 - Start dev server: `npm run dev` and open `http://localhost:5173/`
 - Build for production: `npm run build`
 
----
-
-If you'd like, I can extend this with form-level schema validation using `Yup` + `Formik` or `react-hook-form`, or add unit/e2e tests for the form flows.
