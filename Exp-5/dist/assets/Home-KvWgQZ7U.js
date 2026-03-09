@@ -1,0 +1,1 @@
+import{j as e}from"./index-DxUZzFgU.js";function a(){return e.jsxs("div",{className:"page-content",children:[e.jsx("h2",{children:"Welcome Home"}),e.jsx("p",{children:"Experience a modern and responsive web application built with React and React Router."}),e.jsx("p",{children:"Navigate through our pages to learn more about us and get in touch."})]})}export{a as default};

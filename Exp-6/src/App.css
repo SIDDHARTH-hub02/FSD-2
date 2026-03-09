@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Form-specific styling */
+.form-wrapper {
+  background: #ffffff; /* keep background white */
+  padding: 36px 28px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.08);
+  margin: 32px auto;
+  text-align: left;
+}
+
+.form-header .MuiTypography-h4 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #0b2545; /* dark navy for better visibility */
+}
+
+.form-header .MuiTypography-subtitle1 {
+  font-size: 1.05rem;
+  color: #0b2545; /* match header color */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-card {
+  padding-top: 8px;
+}
+
+/* Ensure labels and captions are visible (black) unless they are error messages */
+.form-wrapper .MuiFormLabel-root,
+.form-wrapper .MuiFormControlLabel-label,
+.form-wrapper .MuiTypography-caption:not(.Mui-error) {
+  font-size: 1rem;
+  color: #000; /* black for better contrast */
+}
+
+.form-wrapper .MuiInputBase-input {
+  font-size: 1.05rem;
+  padding: 14px 12px;
+}
+
+.form-wrapper .MuiTextField-root {
+  margin-top: 4px;
+}
+
+.form-wrapper .MuiButton-root {
+  padding: 10px 18px;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .form-wrapper {
+    padding: 20px;
+    margin: 16px;
+  }
+}
