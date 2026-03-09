@@ -1,0 +1,16 @@
+header {
+  padding: 1rem;
+  background-color: var(--button-bg);
+  border-bottom: 1px solid var(--button-border);
+  color: var(--text-color);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin: 0.5rem 0 0 0;
+  color: #888;
+}

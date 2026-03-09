@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title-box {
+  border: 2px solid var(--accent-color);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  background-color: var(--button-bg);
+  color: var(--text-color);
+}
+
+.title-box h2 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card {
+  padding: 2em;
+}
