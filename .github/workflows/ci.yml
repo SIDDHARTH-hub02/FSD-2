@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: Testing/Backend
+        working-directory: ${{ github.workspace }}/Testing/Backend
 
     steps:
       - name: Checkout code
