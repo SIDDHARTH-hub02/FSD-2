@@ -8,7 +8,7 @@ pymysql.install_as_MySQLdb()
 app = Flask(__name__)
 
 # Update MySQL credentials below
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Utkcu12!@localhost/chandigarh_university_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Sidd2005$@localhost/chandigarh_university_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)

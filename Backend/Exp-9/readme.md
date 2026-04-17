@@ -1,7 +1,5 @@
 # Learning Outcomes
 
-Based on the project code in `app.py`, which implements a Flask-based authentication experiment demonstrating Basic Auth, custom token auth, and JWT authentication, here are 5 learning outcomes phrased in a natural, humanized way:
-
 1. **You'll grasp the basics of securing web apps**: By building this project, you'll understand why authentication matters in web applications and how it protects user data from unauthorized access, making you feel more confident about keeping things safe online.
 
 2. **You'll master Basic Authentication hands-on**: You'll learn to implement HTTP Basic Auth in Flask, where users send credentials in request headers, and you'll see firsthand how simple yet vulnerable this method can be without encryption.
