@@ -31,5 +31,9 @@
     "jsdom": "^29.0.2",
     "vite": "^7.2.4",
     "vitest": "^4.1.4"
+  },
+  "overrides": {
+    "@exodus/bytes": "^1.0.0",
+    "html-encoding-sniffer": "^4.0.0"
   }
 }
