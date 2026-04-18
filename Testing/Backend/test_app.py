@@ -60,3 +60,8 @@ def test_delete_student(client):
     # Verify the student has been deleted
     get_response = client.get(f"/students/{student_id}")
     assert get_response.status_code == 404
+
+def test_home(client):
+    create_response = client.get("/")
+    assert create_response.status_code == 200
+    assert create_response.json["message"] == "Backend Server is running"   
