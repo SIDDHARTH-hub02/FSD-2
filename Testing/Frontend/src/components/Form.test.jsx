@@ -5,7 +5,7 @@ import Form from "./Form";
 describe("Login Form Component", () => {
 
   beforeEach(() => {
-    vi.spyOn(window, "alert").mockImplementation(() => {});
+    vi.clearAllMocks();
   });
 
   it("RENDERS email and password fields", () => {
@@ -43,7 +43,7 @@ describe("Login Form Component", () => {
 
     fireEvent.click(button);
 
-    expect(window.alert).toHaveBeenCalledWith("Form submitted successfully");
+    expect(global.alert).toHaveBeenCalledWith("Form submitted successfully");
   });
 
 });
